@@ -1,0 +1,9 @@
+#BlueJ class context
+comment0.target=Magpie2
+comment1.params=
+comment1.target=java.lang.String\ getGreeting()
+comment2.params=statement
+comment2.target=java.lang.String\ getResponse(java.lang.String)
+comment3.params=
+comment3.target=java.lang.String\ getRandomResponse()
+numComments=4
