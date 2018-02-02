@@ -11,6 +11,15 @@ public class IntArrayWorker
     matrix = theMatrix;
   }
   
+  /** 
+   * Returns the count of the number of times a passed integer value is found in the matrix
+  */
+//  public int getCount()
+//  {
+//      int count = 0;
+//      return count;    
+//  }
+  
   /**
    * Method to return the total 
    * @return the total of the values in the array

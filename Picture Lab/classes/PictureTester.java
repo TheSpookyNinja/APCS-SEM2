@@ -17,6 +17,33 @@ public class PictureTester
     beach.explore();
   }
   
+  /** Method to test keepOnlyBlue method*/
+  public static void testKeepOnlyBlue()
+  {
+      Picture twoTermz = new Picture("twotermz.jpg");
+      twoTermz.explore();
+      twoTermz.keepOnlyBlue();
+      twoTermz.explore();
+  }
+  
+  /** Method to test negative method */
+  public static void testNegate()
+  {
+      Picture china = new Picture("twotermz.jpg");
+      china.explore();
+      china.negate();
+      china.explore();
+  }
+ 
+  /** Method to test greyscale method*/
+  public static void testGreyscale()
+  {
+     Picture Uganda = new Picture("twotermz.jpg");
+     Uganda.explore();
+     Uganda.greyscale();
+     Uganda.explore();
+  }
+  
   /** Method to test mirrorVertical */
   public static void testMirrorVertical()
   {
@@ -62,8 +89,8 @@ public class PictureTester
     //testKeepOnlyBlue();
     //testKeepOnlyRed();
     //testKeepOnlyGreen();
-    //testNegate();
-    //testGrayscale();
+    testNegate();
+    testGreyscale();
     //testFixUnderwater();
     //testMirrorVertical();
     //testMirrorTemple();
